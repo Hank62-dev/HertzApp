@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hertz.vn - Login</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="../../assets/images/logoApp/logoHertz.png"
+    />
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <video autoplay muted loop playsinline class="bgVideo">
+      <source src="../../assets/video/videoBackground.mp4" type="video/mp4" />
+    </video>
+
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <!-- code here -->
+    <div class="containerLogin">
+      <div class="boxLogin">
+        <div class="titleLogin">Login</div>
+        <form id="formLogin">
+          <div class="inputBoxLogin">
+            <input type="text" id="username" required />
+            <span>Username</span>
+            <i></i>
+          </div>
+
+          <div class="inputBoxLogin passwordBox">
+            <input type="password" id="password" required />
+            <span>Password</span>
+            <i></i>
+
+            <button type="button" class="togglePassword">
+              <i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+
+          <div class="linksLogin">
+            <a href="../pageForgotPassword/forgotPassword.html"
+              >Forgot Password?</a
+            >
+            <a href="../pageRegister/register.html">Sign Up</a>
+          </div>
+
+          <button type="submit" class="btnLogin">Login</button>
+          <div class="dividerLogin">
+            <span>or continue with</span>
+          </div>
+
+          <div class="socialLogin">
+            <button class="socialBtn google">
+              <i class="fa-brands fa-google"></i>
+            </button>
+
+            <button class="socialBtn facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- code here -->
+    <!-- script -->
+    <script src="/client/assets/js/auth.js"></script>
+  </body>
+</html>

@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  /* background: linear-gradient(135deg, #0f0f0f, #1c1c1c); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.containerRegister {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.boxRegister {
+  width: 400px;
+  background: #111111ee;
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9);
+}
+
+.titleRegister {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #38bdf8;
+}
+
+.inputBoxRegister {
+  position: relative;
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.inputBoxRegister input {
+  width: 100%;
+  padding: 14px 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  border-bottom: 1px solid #333;
+}
+
+.inputBoxRegister span {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+  font-size: 13px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.inputBoxRegister i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #38bdf8;
+  transition: 0.3s;
+}
+
+.inputBoxRegister input:focus ~ span,
+.inputBoxRegister input:valid ~ span {
+  top: -6px;
+  font-size: 11px;
+  color: #38bdf8;
+}
+
+.inputBoxRegister input:focus ~ i,
+.inputBoxRegister input:valid ~ i {
+  width: 100%;
+}
+
+/* Password eye */
+.passwordBox {
+  position: relative;
+}
+
+.togglePassword {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #777;
+  cursor: pointer;
+}
+
+.passwordBox input:focus ~ .togglePassword,
+.togglePassword:hover {
+  color: #38bdf8;
+}
+
+/* Button */
+.btnRegister {
+  width: 100%;
+  padding: 11px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btnRegister:hover {
+  background: #0ea5e9;
+}
+
+/* Redirect */
+.redirectLogin {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 18px;
+  color: #aaa;
+}
+
+.redirectLogin a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* Divider */
+.dividerRegister {
+  margin: 26px 0;
+  text-align: center;
+  position: relative;
+}
+
+.dividerRegister span {
+  font-size: 12px;
+  background: #111;
+  padding: 0 12px;
+  color: #999;
+  position: relative;
+  z-index: 1;
+}
+
+.dividerRegister::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background: #333;
+}
+
+/* Social */
+.socialRegister {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.socialBtn {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.socialBtn:hover {
+  transform: scale(1.1);
+  border-color: #38bdf8;
+}
+
+.socialBtn.google,
+.socialBtn.facebook {
+  color: #b8b8b8;
+}
+
+@media (max-width: 480px) {
+  .boxRegister {
+    width: 90%;
+  }
+}
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-contacts-auto-fill-button,
+input[type="password"]::-webkit-textfield-decoration-container {
+  display: none !important;
+}

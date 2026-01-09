@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hertz.vn - Register</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="../../assets/images/logoApp/logoHertz.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <video autoplay muted loop playsinline class="bgVideo">
+      <source src="../../assets/video/videoBackground.mp4" type="video/mp4" />
+    </video>
+    <link rel="stylesheet" href="./register.css" />
+  </head>
+  <body>
+    <div class="containerRegister">
+      <div class="boxRegister">
+        <div class="titleRegister">Registration</div>
+
+        <form id="formRegister">
+          <div class="inputBoxRegister">
+            <input type="text" id="username" required />
+            <span>Username</span>
+            <i></i>
+          </div>
+
+          <div class="inputBoxRegister">
+            <input type="email" id="email" required />
+            <span>Email</span>
+            <i></i>
+          </div>
+
+          <div class="inputBoxRegister passwordBox">
+            <input type="password" id="password" required />
+            <span>Password</span>
+            <i></i>
+
+            <button type="button" class="togglePassword">
+              <i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+
+          <div class="inputBoxRegister passwordBox">
+            <input type="password" id="confirmPassword" required />
+            <span>Confirm Password</span>
+            <i></i>
+
+            <button type="button" class="togglePassword">
+              <i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+
+          <button type="submit" class="btnRegister">Sign Up</button>
+
+          <div class="redirectLogin">
+            Already have an account?
+            <a href="../pageLogin/login.html">Login</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="/client/assets/js/auth.js"></script>
+  </body>
+</html>
