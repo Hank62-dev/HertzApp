@@ -7,7 +7,7 @@
 
 body {
   min-height: 100vh;
-  /* background: linear-gradient(135deg, #0f0f0f, #1c1c1c); */
+  background: linear-gradient(135deg, #0f0f0fe5, #1c1c1c);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,23 +169,31 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 19px;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .socialBtn:hover {
-  transform: scale(1.1);
-  border-color: #38bdf8;
+  /* transform: scale(1.1); */
+  border-color: #2e2e2e;
+  /* background-color: #000; */
 }
 
 .socialBtn.google {
   color: #b8b8b8;
 }
+.socialBtn.google:hover {
+  color: #d90000;
+}
 
 .socialBtn.facebook {
   color: #b8b8b8;
 }
+.socialBtn.facebook:hover {
+  color: #1877f2;
+}
+
 .passwordBox {
   position: relative;
 }
