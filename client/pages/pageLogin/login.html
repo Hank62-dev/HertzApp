@@ -25,7 +25,7 @@
     <div class="containerLogin">
       <div class="boxLogin">
         <div class="titleLogin">Login</div>
-        <form id="formLogin">
+        <form id="formLogin" autocomplete="off">
           <div class="inputBoxLogin">
             <input type="text" id="username" required />
             <span>Username</span>
@@ -48,6 +48,42 @@
             >
             <a href="../pageRegister/register.html">Sign Up</a>
           </div>
+
+          <label class="boxPrivacy">
+            <input id="agree" type="checkbox" checked />
+            <label for="agree" class="privacy"
+              >I have read, understood, and agree to the
+              <a
+                href="https://www.nhaccuatui.com/privacy-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="
+                  font-size: 1.2rem;
+                  font-family: Tahoma, Geneva, Verdana, sans-serif;
+                  color: #aaa;
+                  user-select: none;
+                  text-decoration: none;
+                  color: #38bdf8;
+                "
+                >Privacy Policy</a
+              >
+              and
+              <a
+                href="https://www.nhaccuatui.com/terms-of-use"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="
+                  font-size: 1.2rem;
+                  font-family: Tahoma, Geneva, Verdana, sans-serif;
+                  color: #aaa;
+                  user-select: none;
+                  text-decoration: none;
+                  color: #38bdf8;
+                "
+                >Terms of Use</a
+              >.</label
+            >
+          </label>
 
           <button type="submit" class="btnLogin">Login</button>
           <div class="dividerLogin">
