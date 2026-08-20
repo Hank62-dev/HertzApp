@@ -1,0 +1,102 @@
+[
+  {
+    "id": "neon-horizon",
+    "title": "Neon Horizon",
+    "artist": {
+      "id": "aurora-lane",
+      "name": "Aurora Lane",
+      "imageUrl": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=300&q=80"
+    },
+    "album": {
+      "id": "after-dark",
+      "title": "After Dark",
+      "coverUrl": "https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?auto=format&fit=crop&w=800&q=85"
+    },
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "coverUrl": "https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?auto=format&fit=crop&w=800&q=85",
+    "duration": 372,
+    "trackNumber": 1,
+    "genres": ["Synthwave", "Electronic"],
+    "releaseDate": "2026-03-14",
+    "isExplicit": false
+  },
+  {
+    "id": "velvet-sky",
+    "title": "Velvet Sky",
+    "artist": {
+      "id": "luna-grey",
+      "name": "Luna Grey",
+      "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=300&q=80"
+    },
+    "album": {
+      "id": "blue-hours",
+      "title": "Blue Hours",
+      "coverUrl": "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=800&q=85"
+    },
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "coverUrl": "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=800&q=85",
+    "duration": 425,
+    "trackNumber": 2,
+    "genres": ["Dream Pop", "Indie"],
+    "releaseDate": "2025-11-08",
+    "isExplicit": false
+  },
+  {
+    "id": "midnight-circuit",
+    "title": "Midnight Circuit",
+    "artist": {
+      "id": "static-bloom",
+      "name": "Static Bloom",
+      "imageUrl": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=300&q=80"
+    },
+    "album": {
+      "id": "electric-dreams",
+      "title": "Electric Dreams",
+      "coverUrl": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=800&q=85"
+    },
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "coverUrl": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=800&q=85",
+    "duration": 343,
+    "trackNumber": 3,
+    "genres": ["Electronic", "House"],
+    "releaseDate": "2026-01-23",
+    "isExplicit": false
+  },
+  {
+    "id": "slow-motion",
+    "title": "Slow Motion",
+    "artist": {
+      "id": "james-north",
+      "name": "James North",
+      "imageUrl": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=300&q=80"
+    },
+    "album": null,
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    "coverUrl": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=85",
+    "duration": 300,
+    "genres": ["R&B", "Soul"],
+    "releaseDate": "2026-06-02",
+    "isExplicit": false
+  },
+  {
+    "id": "city-lights",
+    "title": "City Lights",
+    "artist": {
+      "id": "paper-planes",
+      "name": "Paper Planes",
+      "imageUrl": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=300&q=80"
+    },
+    "album": {
+      "id": "open-windows",
+      "title": "Open Windows",
+      "coverUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=85"
+    },
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+    "coverUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=85",
+    "duration": 391,
+    "trackNumber": 5,
+    "genres": ["Indie Pop", "Alternative"],
+    "releaseDate": "2025-09-19",
+    "isExplicit": false
+  }
+]
